@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/home/vtyagi/Desktop/Assignments/DataAnalysis_v4.js"  defer></script>
+</head>
+
+<body>
+<form>
+    <h4>Input numbers below separating them by a space</h4>
+    <input type="text" id="numbers">
+    <h4>Choose an operation from dropdown</h4>
+    <select name="operation" id="operation" >
+        <option value="up" id="up">Up</option>
+        <option value="down" id="down">Down</option>
+        <option value="max" id="max">Max</option>
+        <option value="min" id="min">Min</option>
+        <option value="sum" id="sum">Sum</option>
+        <option value="mean" id="mean">Mean</option>
+        <option value="median" id="median">Median</option>
+        <option value="stdev" id="stdev">Standard Deviation</option>
+    </select>
+    <br><br>
+    <button type="button" onclick="getOperation()">Perform Operation</button>
+</form>
+<h4><p id="solution"></p></h4>
+</body>
+</html>
